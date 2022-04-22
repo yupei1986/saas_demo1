@@ -4,6 +4,7 @@
 # 请确保指定的包和版本号，可通过pip安装
 
 # blueapps requirement
+mysqlclient==1.4.0
 Django==1.11.2
 PyMySQL==0.6.7
 #PyMySQL==1.4.0
@@ -16,7 +17,7 @@ django-celery==3.2.1
 python-json-logger==0.1.7
 whitenoise==3.3.0
 six==1.11.0
-anyjson==0.2.5
+anyjson
 kombu==3.0.37
 
 #v2 requirement

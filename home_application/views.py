@@ -6,7 +6,7 @@ from django.shortcuts import render
 # 装饰器引入 from blueapps.account.decorators import login_exempt
 def home(request):
     """
-    首页
+    首页123123213
     """
     return render(request, 'home_application/home.html')
 
