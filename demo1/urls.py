@@ -19,4 +19,5 @@ from demo1 import views
 
 urlpatterns = (
     url(r'^$', views.list),
+
 )
