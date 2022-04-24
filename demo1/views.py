@@ -11,7 +11,7 @@ def list1(request):
     """
   #  return HttpResponse("123123123这是一个测试")
 
-def list(request):
+def Dis_Person(request):
     """
     首页123123213
     """
@@ -21,4 +21,4 @@ def list(request):
     print(retlist)
     print('aaa')
 
-    return JsonResponse({'a':'retlist'})
+    return JsonResponse({'a':2,'P_info':retlist})

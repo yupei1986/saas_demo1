@@ -18,6 +18,6 @@ from django.conf.urls import url
 from demo1 import views
 
 urlpatterns = (
-    url(r'^$', views.list),
+    url(r'^$', views.Dis_Person),
 
 )
